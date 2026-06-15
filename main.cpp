@@ -12,10 +12,10 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // WiFi credentials
-const char* ssid = "CTOS";
-const char* password = "200300##A67Yola##**";   // <-- CHANGE THIS
+const char* ssid = "Your WIFI SSID";
+const char* password = "Your WIFI password";   // <-- CHANGE THIS
 
-// Timezone: Egypt is currently on DST (UTC+3)
+// Timezone: ***** is currently on DST (UTC+3)
 // When DST ends (end of October), change to 2*3600.
 const long gmtOffset_sec = 3 * 3600;   // UTC+3 for now
 const int daylightOffset_sec = 0;      // No extra DST offset
